@@ -27,6 +27,7 @@ for i in range(0, len(thought)):
         continue
     for j in range(93):
         if thought[i]==Original_List[j]:
+
             name=cropped_Image_Location + Name_List[j]+'_handwriting.jpg'
             images_list.append(name)
             continue
